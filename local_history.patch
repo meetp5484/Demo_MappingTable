@@ -1,0 +1,17 @@
+Index: Project_1/src/main/java/com/example/Project_1/Controller/JavaController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Project_1/src/main/java/com/example/Project_1/Controller/JavaController.java b/Project_1/src/main/java/com/example/Project_1/Controller/JavaController.java
+--- a/Project_1/src/main/java/com/example/Project_1/Controller/JavaController.java	
++++ b/Project_1/src/main/java/com/example/Project_1/Controller/JavaController.java	(date 1707727140637)
+@@ -73,7 +73,7 @@
+             throw new EntityNotFoundException("Employee not found with id: " + id);
+         }
+     }
+-    private Map<String, Object> mapToEmployeeResponse(Employee employee) {
++    private Map<String, Object> mapToEmployeeResponse(  Employee employee) {
+         Map<String, Object> response = new HashMap<>();
+         response.put("empId", employee.getEmpId());
+         response.put("empName", employee.getEmpName());
